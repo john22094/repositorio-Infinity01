@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabum Projeto Bootstrap</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+        body {
+            background-color: #009FB7;
+        }
+        .card {
+            margin: 20px;
+        }
+        .form-container {
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            background-color: #E55934;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #006D77;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container text-center">
+
+    <img src=logo.png>
+
+    <h1 class="mb-5" style="color: #00171F;">Bem-Vindo, Querido Cliente!</h1>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src=card1.png>
+                <div class="card-body">
+                    <h5 class="card-title">Assinatura Básica</h5>
+                    <p class="card-text">Contêm acesso ao servidor 24hrs e acesso à nossa biblioteca de jogos.</p>
+                    <button class="btn btn-primary">Assinar por R$15,00/MÊS</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src=card2.png>
+                <div class="card-body">
+                    <h5 class="card-title">Assinatura PRO</h5>
+                    <p class="card-text">Contêm os anteriores, acesso à parceria kabum + Xbox game pass e poder jogar online em nossos servidores</p>
+                    <button class="btn btn-primary">Assinar por R$20,00/MÊS</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src=card3.png>
+                <div class="card-body">
+                    <h5 class="card-title">Assinatura PREMIUM</h5>
+                    <p class="card-text">Contêm os anteriores, acesso antecipado exclusivo à jogos, beta testes e suporte em qualquer dispositivo</p>
+                    <button class="btn btn-primary">Assinar por R$35,00/MÊS</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-container my-4">
+        <h2>Crie sua conta</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" class="form-control" id="Nome" placeholder="Seu Nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="Email" placeholder="Seu Email" required>
+            </div>
+            <div class="form-group">
+                <label for="cellphone">Celular</label>
+                <input type="tel" class="form-control" id="Celular" placeholder="Seu Número de Celular" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Adicionar Usuário</button>
+        </form>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
